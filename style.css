@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #ffffff;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #8d7030;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.profile {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 300px;
+    margin-top: 200px;
+}
+.foto {
+    grid-column: 2; /* Pastikan gambar ada di kolom 2 */
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 50px; /* Tambahkan jarak antara foto dan deskripsi */
+}
+
+.desc {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.profile-info h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.bio {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+
+.foto img {
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    width: 150px; /* Ukuran gambar */
+    height: 150px;
+    object-fit: cover;
+    margin-right: 200px; /* Memberi jarak antara foto dan deskripsi */
+    margin: 0%;
+}
+
+.des {
+    flex-grow: 1;
+    text-align: left; /* Mengatur agar teks berada di kiri */
+}
+
+.des h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.des p {
+    margin: 5px 0;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links li {
+    margin: 10px;
+    scroll-padding-left: 20px;
+    left: 40px;
+}
+
+.social-links a:hover {
+    color: #e96c6c;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #5346a1;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
